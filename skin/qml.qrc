@@ -1,0 +1,8 @@
+﻿<RCC>
+    <qresource prefix="/skin"/>
+    <qresource prefix="/">
+        <file>qml/ProgressBar/CustomProgressBar.qml</file>
+        <file>qml/Common/CustomText.qml</file>
+        <file>qml/Charging/BatteryCharge.qml</file>
+    </qresource>
+</RCC>

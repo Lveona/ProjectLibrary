@@ -1,0 +1,9 @@
+﻿<RCC>
+    <qresource prefix="/skin1/qml">
+        <file>progressBar_gray.png</file>
+        <file>progressBar_green.png</file>
+        <file>progressBar_headlight.png</file>
+        <file>progressBar_red.png</file>
+        <file>progressBar_yellow.png</file>
+    </qresource>
+</RCC>
