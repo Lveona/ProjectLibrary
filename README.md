@@ -1,10 +1,10 @@
 HMI架构说明
 一、	预览
 本次全液晶仪表平台的HMI效果图如下：
-![nod9ffmt6oclq5mi](\:storage\nod9ffmt6oclq5mi.png)
+![nod9ffmt6oclq5mi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/nod9ffmt6oclq5mi.png)
 仪表平台的HMI开发工具基于Linux的QT5.11.2开发。QT具有优良的跨平台特性，其良好的封装机制使得QT的模块化程度非常高，可重用性较好，并且支持2D/3D图形渲染，支持OpenGL，对于开发者来说是非常方便的。
 仪表 HMI的系统框图如下图所示： 
-![0ablk6x8d3yjh5mi](\:storage\0ablk6x8d3yjh5mi.png)
+![0ablk6x8d3yjh5mi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/0ablk6x8d3yjh5mi.png)
 1.	QML是画面描画层，负责画面/动画显示
 2.	Screen是画面管理层，是QML对应的C++层，保持画面的显示数据与状态
 3.	Control是业务逻辑层，负责接收底层数据，处理业务逻辑
@@ -12,9 +12,9 @@ HMI架构说明
 
 二、HMI各层内容详细说明
 1. QML：
- ![9j7h90yisv1dzpvi](\:storage\9j7h90yisv1dzpvi.png)
+ ![9j7h90yisv1dzpvi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/9j7h90yisv1dzpvi.png)
 main.qml：是主画面画布，负责加载所有其他qml。也包含HMI入场出场转场等动画效果。
-![jwalwf3a2izilik9](\:storage\jwalwf3a2izilik9.png)
+![jwalwf3a2izilik9](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/jwalwf3a2izilik9.png)
  
 由于HMI采用双进程架构，大部分画面在Gauge进程，指针/油表/水温表在Point进程。
 Gauge进程采用30帧，Point进程采用60帧。Gauge进程有动画，Point进程无动画。
@@ -54,7 +54,7 @@ Gauge进程采用30帧，Point进程采用60帧。Gauge进程有动画，Point�
 2. Screen：
  
 类结构说明
-![u7zrxbl22fadzpvi](\:storage\u7zrxbl22fadzpvi.png)
+![u7zrxbl22fadzpvi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/u7zrxbl22fadzpvi.png)
  
 CBaseScreen：是所有Screen的基类。核心实现将自身C++类注册到QML中。
 CSingleton：单例类。保证HMI进程生命周期只有一个实例对象。
@@ -81,7 +81,7 @@ static ScreenDataParser screenParses[] {
 3. Control：
  
 类结构说明
- ![kpooop5l3pyi7ldi](\:storage\kpooop5l3pyi7ldi.png)
+ ![kpooop5l3pyi7ldi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/kpooop5l3pyi7ldi.png)
 CBaseControl：线程类，是所有Control的基类。CBaseControl继承QThread，主要实现消费者的功能，App传过来的数据做为生产者。CBaseControl负责将数据放入线程处理，并将数据发送给对应的Control模块。
 CSingleton：单例类。保证HMI进程生命周期只有一个实例对象。
 中间层掉用回调函数，通过pushData将数据输入到链表中，Control循环调用dataChange解析数据
@@ -120,7 +120,7 @@ static DataParser parsers[]
 1. 外部通信:
 HMI进程与App的IVP/IVS/PM进程之间主要通过PPS进行通信。IVP/IVS/PM模块提供动态链接库（.so），动态链接库的主要功能是建立与IVP/IVS/PM进程的通信。HMI编译时链接IVP/IVS/PM的动态链接库，最终可以实现HMI与IVS/IVP/PM进程通信。
 如下面框图所示：
- ![1vu4p1etbh60qkt9](\:storage\1vu4p1etbh60qkt9.png)
+ ![1vu4p1etbh60qkt9](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/1vu4p1etbh60qkt9.png)
 	HMI	：HMI进程，仪表UI画面
 	IVS		：IVS进程，传递车速、仪表状态信息模块。
 	IVP		：IVP进程，传递IVI主机信息模块。
@@ -130,7 +130,7 @@ HMI进程与App的IVP/IVS/PM进程之间主要通过PPS进行通信。IVP/IVS/PM
 由于IVS/IVP通信频繁，尤其是IVS模块，每20ms就会通知HMI，此时如果HMI处理耗时的操作，会导致消息阻塞。所以仪表HMI在外部通信设计中采用了生产者和消费者模型，在Control中开辟一个线程作为消费者收集IVP/IVS数据，防止消息阻塞。
 消费者和生产者模型如下：
 
- ![78ttl9l2vm2njyvi](\:storage\78ttl9l2vm2njyvi.png)
+ ![78ttl9l2vm2njyvi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/78ttl9l2vm2njyvi.png)
 
 Class	概要
 App CallBack	IVS、IVP的生产者线程，每20ms生产数据。
@@ -185,7 +185,7 @@ Q_PROPERTY(Type name READ getFunction WRITE setFunction NOTIFY notifySignal)
 
 4. 进程间通信:
 进程间通信使用Qt的QShareMemory模块，每个进程都有一个ShareMemory。ShareMemoryA负责创建共享内存，并往共享内存写数据，ShareMemoryB负责从共享内存读数据。通过设置共同名字的Key，来保证使用同一个共享内存区域。ShareMemoryA放入单独线程，周期20ms。ShareMemoryB放入单独线程，周期10ms。
- ![bguuwbqjkfzb0529](\:storage\bguuwbqjkfzb0529.png)
+ ![bguuwbqjkfzb0529](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/bguuwbqjkfzb0529.png)
  
 为了防止数据丢失，Gauge进程会定周期给Point进程发送信息。周期为100ms。
 5. 定周期通信:
@@ -193,7 +193,7 @@ Q_PROPERTY(Type name READ getFunction WRITE setFunction NOTIFY notifySignal)
 四、HMI切换主题
 Scenemanager是换肤框架的换肤管理器，负责动态卸载加载画面，qml画面会打包成rcc文件。切换主题时候，卸载加载rcc文件，实现切换主题。
 时序图如下：
- ![ltgdtgahnou07ldi](\:storage\ltgdtgahnou07ldi.png)
+ ![ltgdtgahnou07ldi](https://github.com/Lveona/ProjectLibrary/blob/main/readmeImg/ltgdtgahnou07ldi.png)
 
 五、HMI画面启动优化
 在仪表HMI Framework中，整个HMI使用静态编译的方式，没有动态库so之说。HMI进程启动通过主动调用各个Screen的单例方法实现创建加载。
