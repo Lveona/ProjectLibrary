@@ -1,0 +1,8 @@
+﻿<RCC>
+    <qresource prefix="/hmibox">
+        <file>btn1.png</file>
+        <file>btn2.png</file>
+        <file>MyButton.qml</file>
+        <file>BoxMain.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,46 @@
+﻿<RCC>
+    <qresource prefix="/sport">
+        <file>qml/Common/CustomImage.qml</file>
+        <file>qml/Common/CustomText.qml</file>
+        <file>qml/Diag/Diag.qml</file>
+        <file>qml/Home/Home.qml</file>
+        <file>FpsItem.qml</file>
+        <file>qml/CarInfo/CarInfo.qml</file>
+        <file>qml/Interconnect/Interconnect.qml</file>
+        <file>qml/Interconnect/Navi.qml</file>
+        <file>qml/Popup/Popup.qml</file>
+        <file>UpdateScreen.qml</file>
+        <file>qml/Interconnect/RoundIcon.qml</file>
+        <file>qml/Interconnect/RoundIconBg.qml</file>
+        <file>main.qml</file>
+        <file>qml/CarInfo/CarinfoPathview.qml</file>
+        <file>LcdUpdateScreen.qml</file>
+        <file>qml/Common/CustomTextEn.qml</file>
+        <file>qml/Charging/Charging.qml</file>
+        <file>qml/Common/CustomButton.qml</file>
+        <file>qml/Common/CustomPageIndicator.qml</file>
+        <file>qml/Common/CustomCarInfo.qml</file>
+        <file>qml/Common/CustomTyre.qml</file>
+        <file>qml/Common/CustomHKTips.qml</file>
+        <file>qml/Interconnect/phone/Active.qml</file>
+        <file>qml/Interconnect/phone/Dialing.qml</file>
+        <file>qml/Interconnect/phone/HungUp.qml</file>
+        <file>qml/Interconnect/phone/Incoming.qml</file>
+        <file>qml/Interconnect/phone/Phone.qml</file>
+        <file>qml/Interconnect/phone/PhoneMiniD.qml</file>
+        <file>qml/Interconnect/media/Media.qml</file>
+        <file>qml/Interconnect/media/Radio.qml</file>
+        <file>qml/Common/CustomAutoScollText.qml</file>
+        <file>qml/Interconnect/media/RadioMiniD.qml</file>
+        <file>qml/Interconnect/media/Multimedia.qml</file>
+        <file>qml/Interconnect/media/MediaMiniD.qml</file>
+        <file>qml/Interconnect/phone/ActiveMiniD.qml</file>
+        <file>qml/Interconnect/phone/DialingMinid.qml</file>
+        <file>qml/Interconnect/phone/HungUpMinid.qml</file>
+        <file>qml/Interconnect/phone/IncomingMinid.qml</file>
+        <file>qml/ADAS/MiniADAS.qml</file>
+        <file>qml/Common/CustomMask.qml</file>
+
+        <file>qml/ADAS/ADASCard.qml</file>
+    </qresource>
+</RCC>

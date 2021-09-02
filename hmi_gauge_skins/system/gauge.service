@@ -1,0 +1,19 @@
+﻿[Unit]
+Description=HMI
+After=ivs.service
+After=opening.service
+After=audio-server.service
+After=weston.service
+After=background.service
+[Service]
+Type=notify
+Environment="XDG_RUNTIME_DIR=/run/wayland" "QT_WAYLAND_DISABLE_WINDOWDECORATION=1"
+ExecStart=/usr/bin/EJanus2-hmi -platform wayland-egl
+TimeoutStartSec=10
+WatchdogSec=2
+Restart=always
+StartLimitInterval=60,StartLimitBurst=5
+#StartLimitAction=poweroff-force 
+StartLimitAction=none 
+[Install]
+WantedBy=multi-user.target

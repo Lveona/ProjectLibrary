@@ -1,0 +1,43 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>CusNode.qml</file>
+        <file>Scene3D.qml</file>
+        <file>mesh/moto.mesh</file>
+        <file>mesh/r8.mesh</file>
+        <file>mesh/smallcar.mesh</file>
+        <file>mesh/truck.mesh</file>
+        <file>mesh/pedestrian.mesh</file>
+        <file>CustomMask.qml</file>
+        <file>adas_image/pic_HMI_classic_default_HWA_arrow.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_BSD_red.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_BSD_red2.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_BSD_yellow.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_BSD_yellow2.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_HWABLUE.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCW_FCW.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_turn1.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_turn2.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_turn3.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_turn4.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCTA_FCTA.png</file>
+        <file>CustomMaskArc.qml</file>
+        <file>mesh/carbody.mesh</file>
+        <file>mesh/fl_close.mesh</file>
+        <file>mesh/fl_open.mesh</file>
+        <file>mesh/door_fr_close.mesh</file>
+        <file>mesh/door_rl_close.mesh</file>
+        <file>mesh/door_rr_close.mesh</file>
+        <file>mesh/door_fr_open.mesh</file>
+        <file>mesh/door_rl_open.mesh</file>
+        <file>mesh/door_rr_open.mesh</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCTA_FCTA2.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCTA_FCTA3.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCTA_FCTA4.png</file>
+        <file>adas_image/blackMask.png</file>
+        <file>adas_image/1pic_HMI_classic_default_HWA_arrow.png</file>
+        <file>adas_image/pic_HMI_classic_default_HWA_arrow1.png</file>
+        <file>adas_image/pic_HMI_classic_default_road_RCW_FCW_yellow.png</file>
+        <file>shadercachefile1.dat</file>
+    </qresource>
+</RCC>

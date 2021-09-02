@@ -1,0 +1,14 @@
+﻿<RCC>
+    <qresource prefix="/individual">
+        <file>qml/Common/CustomImage.qml</file>
+        <file>qml/Common/CustomText.qml</file>
+        <file>qml/Gauge/Gauge.qml</file>
+        <file>qml/Gauge/Point.qml</file>
+        <file>main.qml</file>
+        <file>qml/Telltale/Telltales.qml</file>
+        <file>qml/Common/CustomPointer.qml</file>
+        <file>qml/Common/CustomShape.qml</file>
+        <file>qml/Gauge/GaugeNormal.qml</file>
+        <file>qml/Gauge/GaugeNav.qml</file>
+    </qresource>
+</RCC>

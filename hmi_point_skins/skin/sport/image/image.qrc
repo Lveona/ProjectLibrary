@@ -1,0 +1,138 @@
+﻿<RCC>
+    <qresource prefix="/sport/qml">
+        <file>Telltale/ABS.png</file>
+        <file>Telltale/hdc_green.png</file>
+        <file>Telltale/airsuspensiondown.png</file>
+        <file>Telltale/airsuspensionfault.png</file>
+        <file>Telltale/airsuspensionup.png</file>
+        <file>Telltale/avas.png</file>
+        <file>Telltale/avh.png</file>
+        <file>Telltale/AVHinjure.png</file>
+        <file>Telltale/batteryheat.png</file>
+        <file>Telltale/batterysystemfault.png</file>
+        <file>Telltale/BMS.png</file>
+        <file>Telltale/charging.png</file>
+        <file>Telltale/coolant.png</file>
+        <file>Telltale/DCDCfault.png</file>
+        <file>Telltale/dynasystemfault.png</file>
+        <file>Telltale/EBD_yellow.png</file>
+        <file>Telltale/EPB_red.png</file>
+        <file>Telltale/EPB_yellow.png</file>
+        <file>Telltale/EPSfault.png</file>
+        <file>Telltale/foglight.png</file>
+        <file>Telltale/hdc_yellow.png</file>
+        <file>Telltale/headlight.png</file>
+        <file>Telltale/headlightfullbeam.png</file>
+        <file>Telltale/srs.png</file>
+        <file>Telltale/TCS.png</file>
+        <file>Telltale/TCSoff.png</file>
+        <file>Telltale/tirepressure.png</file>
+        <file>Telltale/leftlight.png</file>
+        <file>Telltale/lowbattery.png</file>
+        <file>Telltale/parkinglight.png</file>
+        <file>Telltale/powerlimit.png</file>
+        <file>Telltale/rightlight.png</file>
+        <file>Telltale/chargeingconnect.png</file>
+        <file>Telltale/EBD_red.png</file>
+        <file>Telltale/safebelt_Back.png</file>
+        <file>Telltale/safebelt_Main_Pass.png</file>
+        <file>Gauge/0.png</file>
+        <file>Gauge/1.png</file>
+        <file>Gauge/2.png</file>
+        <file>Gauge/3.png</file>
+        <file>Gauge/4.png</file>
+        <file>Gauge/5.png</file>
+        <file>Gauge/6.png</file>
+        <file>Gauge/7.png</file>
+        <file>Gauge/8.png</file>
+        <file>Gauge/9.png</file>
+        <file>Telltale/autolight_blue.png</file>
+        <file>Telltale/autolight_white.png</file>
+        <file>Telltale/autolight_red.png</file>
+        <file>Telltale/ACC_green.png</file>
+        <file>Telltale/ACC_grey.png</file>
+        <file>Telltale/ACC_yellow.png</file>
+        <file>Telltale/fcs_crash_red.png</file>
+        <file>Telltale/fcs_crash_yellow.png</file>
+        <file>Telltale/HWA_green.png</file>
+        <file>Telltale/HWA_grey.png</file>
+        <file>Telltale/HWA_yellow.png</file>
+        <file>Telltale/maxspeed.png</file>
+        <file>Telltale/Pfault.png</file>
+        <file>Telltale/speedlimit.png</file>
+        <file>Telltale/steelringwhell.png</file>
+        <file>Telltale/wiperfault.png</file>
+        <file>Telltale/frontbonnetfault.png</file>
+        <file>Telltale/airsuspensionfault_red.png</file>
+        <file>Telltale/avh_white.png</file>
+        <file>Telltale/EPSfault_red.png</file>
+        <file>Telltale/avh_yellow.png</file>
+        <file>Telltale/safebelt_dotgreen.png</file>
+        <file>Telltale/safebelt_dotgrey.png</file>
+        <file>Telltale/safebelt_dotred.png</file>
+        <file>Telltale/DCDC_yellow.png</file>
+        <file>Telltale/speedlimit_cancel.png</file>
+        <file>Gauge/pic_HMI_sport_dialbase.png</file>
+        <file>Gauge/pic_HMI_sport_dialbase2.png</file>
+        <file>Gauge/pic_HMI_sport_dialhighlight.png</file>
+        <file>Gauge/pic_HMI_sport_dialhighlight_2.png</file>
+        <file>Gauge/pic_HMI_sport_dialpoint.png</file>
+        <file>Gauge/highlight.png</file>
+        <file>Gauge/sportSpeedBg.png</file>
+        <file>Gauge/pointer.png</file>
+        <file>Gauge/dialFrame/Comp 1_00000.png</file>
+        <file>Gauge/dialFrame/Comp 1_00001.png</file>
+        <file>Gauge/dialFrame/Comp 1_00002.png</file>
+        <file>Gauge/dialFrame/Comp 1_00003.png</file>
+        <file>Gauge/dialFrame/Comp 1_00004.png</file>
+        <file>Gauge/dialFrame/Comp 1_00005.png</file>
+        <file>Gauge/dialFrame/Comp 1_00006.png</file>
+        <file>Gauge/dialFrame/Comp 1_00007.png</file>
+        <file>Gauge/dialFrame/Comp 1_00008.png</file>
+        <file>Gauge/dialFrame/Comp 1_00009.png</file>
+        <file>Gauge/dialFrame/Comp 1_00010.png</file>
+        <file>Gauge/dialFrame/Comp 1_00011.png</file>
+        <file>Gauge/dialFrame/Comp 1_00012.png</file>
+        <file>Gauge/dialFrame/Comp 1_00013.png</file>
+        <file>Gauge/dialFrame/Comp 1_00014.png</file>
+        <file>Gauge/dialFrame/Comp 1_00015.png</file>
+        <file>Gauge/dialFrame/Comp 1_00016.png</file>
+        <file>Gauge/dialFrame/Comp 1_00017.png</file>
+        <file>Gauge/dialFrame/Comp 1_00018.png</file>
+        <file>Gauge/dialFrame/Comp 1_00019.png</file>
+        <file>Gauge/dialFrame/Comp 1_00020.png</file>
+        <file>Gauge/dialFrame/Comp 1_00021.png</file>
+        <file>Gauge/dialFrame/Comp 1_00022.png</file>
+        <file>Gauge/dialFrame/Comp 1_00023.png</file>
+        <file>Gauge/dialFrame/Comp 1_00024.png</file>
+        <file>Gauge/dialFrame/water_00000.png</file>
+        <file>Gauge/dialFrame/water_00001.png</file>
+        <file>Gauge/dialFrame/water_00002.png</file>
+        <file>Gauge/dialFrame/water_00003.png</file>
+        <file>Gauge/dialFrame/water_00004.png</file>
+        <file>Gauge/dialFrame/water_00005.png</file>
+        <file>Gauge/dialFrame/water_00006.png</file>
+        <file>Gauge/dialFrame/water_00007.png</file>
+        <file>Gauge/dialFrame/water_00008.png</file>
+        <file>Gauge/dialFrame/water_00009.png</file>
+        <file>Gauge/dialFrame/water_00010.png</file>
+        <file>Gauge/dialFrame/water_00011.png</file>
+        <file>Gauge/dialFrame/water_00012.png</file>
+        <file>Gauge/dialFrame/water_00013.png</file>
+        <file>Gauge/dialFrame/water_00014.png</file>
+        <file>Gauge/dialFrame/water_00015.png</file>
+        <file>Gauge/dialFrame/water_00016.png</file>
+        <file>Gauge/dialFrame/water_00017.png</file>
+        <file>Gauge/dialFrame/water_00018.png</file>
+        <file>Gauge/dialFrame/water_00019.png</file>
+        <file>Gauge/dialFrame/water_00020.png</file>
+        <file>Gauge/dialFrame/water_00021.png</file>
+        <file>Gauge/dialFrame/water_00022.png</file>
+        <file>Gauge/dialFrame/water_00023.png</file>
+        <file>Gauge/dialFrame/water_00024.png</file>
+        <file>Gauge/pic_HMI_sport_baseline.png</file>
+        <file>Gauge/maskBg1.png</file>
+        <file>Gauge/black_bg.png</file>
+		 <file>Telltale/icon_warning_dynamicwrong.png</file>
+    </qresource>
+</RCC>

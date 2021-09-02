@@ -1,0 +1,2 @@
+upd_subscribe_attr_update_rate:100
+upd_subscribe_attr_update_no:2

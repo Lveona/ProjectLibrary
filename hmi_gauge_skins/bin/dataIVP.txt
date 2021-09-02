@@ -1,0 +1,34 @@
+﻿{
+    "IVP_sourceInfo" : {
+        "sourceName": 9,
+        "playState": 0,
+        "title": "地爆天星",
+        "artist": "艺术家",
+        "imageUri": "qrc:/skin1/qml/Interconnect/media/icon_areaD_TBT_music.png"
+    },
+    "IVP_CB_ID_PHONE_INFO" : {
+        "connectStatus": 1,
+        "notifyReason": 0,
+        "callInfo": [
+            {
+                "callStatus": 2,
+                "displayName": "David Xu",
+                "phoneNumber": "139-2566-8866",
+                "elapseTimeSeconds": 70
+            },
+            {
+                "callStatus": 3,
+                "displayName": "显示名字displayName2",
+                "phoneNumber": "phoneNumber2",
+                "elapseTimeSeconds": 70
+            }
+        ]
+    },
+	
+	"IVP_navigationInfo": {
+		"navigationStatus": 0,
+                "navigationMapMode":0,
+		"navigationProjection": 1
+		
+	}
+}
